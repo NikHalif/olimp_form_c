@@ -24,7 +24,7 @@ namespace Olimp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https://olymptrade.com");
+            webControl1.WebView.Url = "https://olymptrade.com";
         }
     }
 }
